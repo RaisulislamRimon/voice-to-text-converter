@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Home</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <!--
+      Need a visual blank slate?
+      Remove all code in `styles.css`!
+    -->
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="input-container">
+      <!-- <input type="text" id="inputField" />
+      <br /> -->
+      <!-- <textarea name="my_textarea" id="inputField"></textarea> -->
+      <!-- <textarea name="my_textarea" id="my_textarea"></textarea> -->
+
+      <!-- ===================== -->
+      <!-- <textarea name="my_textarea" id="myTextbox"></textarea>
+
+      <i class="fas fa-microphone" id="microphoneIcon"></i>
+      <select id="languageSelect">
+        <option value="bn">Bengali</option>
+        <option value="en">English</option>
+      </select> -->
+
+      <!-- ====================== -->
+      <!-- <input type="text" id="inputField" /> -->
+      <textarea name="my_textarea" id="inputField"></textarea>
+      <select id="languageSelect">
+        <option value="bn">বাংলা</option>
+        <option value="en">English</option>
+      </select>
+      <span id="microphoneIcon" onclick="toggleSpeechRecognition()">
+        <i class="fas fa-microphone" id="microphoneIcon"></i>
+      </span>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
